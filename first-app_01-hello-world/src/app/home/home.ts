@@ -12,7 +12,7 @@ template: `
       </form>
     </section>
     <section class="results">
-      <app-housing-location [housingLocation]="housingLocation"/>
+      <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
     </section>
   `,
   styleUrls: [`./home.css`]
